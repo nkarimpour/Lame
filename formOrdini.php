@@ -67,19 +67,14 @@ for($i=2006;$i<=2010;$i++){
 }
 echo("</select>");
 */
-echo("<form name='mio' action='form+1.php' method='post'>");
+echo("<form name='mio' action='formOrdini+1.php' method='post'>");
 echo("<table align='center'><tr><th colspan='2'>INSERISCI</th></tr>");
 
-echo("<tr><td><input type='text' value='Nome' name='nome'></td></tr>");
-echo("<tr><td><input type='text' value='Cognome' name='cognome'></td></tr>");
 
+echo("<tr><td><input type='text' value='id_ordine' name='id_ordine'></td></tr>");
+echo("<tr><td><input type='text' value='p.iva fornitore' name='id_utente'></td></tr>");
+echo("<tr><td><input type='text' value='gg-mm-aa' name='data'></td></tr>");
 
-echo("<tr><td><input type='text' value='Indirizzo' name='indirizzo'></td></tr>");
-
-
-echo("<tr><td><input type='text' value='P.Iva' name='piva'></td></tr>");
-echo("<tr><td><input type='text' value='Telefono' name='recapito'></td></tr>");
-echo("<tr><td><input type='text' value='Mail' name='mail'></td></tr>");
 
 echo("<tr><td colspan='2'><input type='submit' value='Inserisci'></form></td></tr>");
 
